@@ -1,0 +1,56 @@
+Data Type text int,Description Unique Identifier for each game Season that the game was played,Field Name game_id season,Notes Seasons 2003 - 2020,Example 2004_2004-02-18_1133_1229 2004
+int,How many days into the season the game was played,day_num,,107
+date,Date the game was played,date,,"38,035"
+int,Unique identifier for each team,team_id,,"1,229"
+text,Name of the team playing,team_name,,
+text,City the team is from,team_city,,
+text,Abbreviation for the state the team is from,team_state,,
+int,Distance in miles the team is playing from their home city,team_dist_from_home,Only available for season 2016 onward,21
+int,Identifier for the opposing team in a game,opp_team_id,,"1,133"
+text,Name of the opposing team in the game,opp_team_name,,
+text,Name of the city the opposing team is from,opp_team_city,,
+text,Abbreviation for the state the opposing team is from,opp_team_state,Only available for season 2016 onward,
+int,Distance in miles the opposing team is playing from their home city,opp_dist_from_home,,213
+boolean,Flag that represents if the team won or not,team_win,,1
+int,Difference in score between the two teams,score_difference,,19
+text,Game location relative to the team,team_location,,
+int,Score of the team,team_score,,65
+int,Field goals made,team_fgm,,21
+int,Field goals attempted,team_fga,,50
+int,3 point shots made,team_3pm,,6
+int,3 point shots attempted,team_3pa,,19
+int,Free throws made,team_ftm,,17
+int,Free throws attempted,team_fta,,21
+int,Offensive rebounds,team_off_rebs,,7
+int,Defensive rebounds,team_def_rebs,,26
+int,Assists,team_asts,,9
+int,Turnovers,team_tos,,13
+int,Steals,team_stls,,11
+int,Blocks,team_blks,,6
+int,Personal fouls,team_pfs,,14
+int,Possessions,team_poss,,52
+float,How competitive the team is relative to other teams before the game played,team_elo_before_game,,686.9223267
+float,How competitive the team is relative to other teams after the game played,team_elo_after_game,,696.2000318
+float,How likely the team is to win based on both teams elo scores,team_elo_win_prob,,0.613428955
+int,Score of the opposing team,opp_score,,46
+int,Field goals made by the opposing team,opp_fgm,,15
+int,Field goals attempted by the opposing team,opp_fga,,48
+int,3 point shots made by the opposing team,opp_3pm,,5
+int,3 point shots attempted by the opposing team,opp_3pa,,26
+int,Free throws made by the opposing team,opp_ftm,,11
+int,Free throws attempted by the opposing team,opp_fta,,15
+int,Offensive rebounds by the opposing team,opp_off_rebs,,9
+int,Defensive rebounds by the opposing team,opp_def_rebs,,24
+int,Assists by the opposing team,opp_asts,,9
+int,Turnovers by the opposing team,opp_tos,,19
+int,Steals by the opposing team,opp_stls,,6
+int,Blocks by the opposing team,opp_blks,,5
+int,Personal fouls by the opposing team,opp_pfs,,17
+int,Possessions by the opposing team,opp_poss,,41
+float,How competitive the opposing team is relative to other teams before the game played,opp_elo_before_game,,656.8420842
+float,How competitive the opposing team is relative to other teams after the game played,opp_elo_after_game,,647.5643792
+float,How likely the opposing team is to win based on both teams elo scores,opp_elo_win_prob,,0.386571045
+float,Normalization of a teams points scored in the game,team_off_eff,,101.6
+float,Normalization of a teams points allowed in the game,team_def_eff,,88.5
+float,Normalization of the oppenents points scored in the game,opp_off_eff,,88.5
+float,Normalization of the oppenents points allowed in the game,opp_def_eff,,101.6
