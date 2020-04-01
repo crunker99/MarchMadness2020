@@ -1,3 +1,6 @@
+# Large files --Jared
+clean_vizathon.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
