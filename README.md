@@ -13,13 +13,13 @@ Follow the link below to preview the interactive dashboard:
 Web scraping for official team colors and logos was completed using BeautifulSoup, Urllib, and Requests in Python, and integrated into dashboard.
 
 
-[Web Scraping Jupyter Notebook](./blob/master/color_logo_scrape.ipynb)
+[Web Scraping Jupyter Notebook](color_logo_scrape.ipynb)
 
 [Colors/Logo Source](https://dynasties.operationsports.com/team-colors.php?sport=ncaa)
 
 ### Prediction method
 
-Predictions from Elo win probability formula stood up to machine learning models (XGBoost, Logistic Regression). Process and results viewable in ['Model' Jupyter Notebook](./blob/master/Model.ipynb)
+Predictions from Elo win probability formula stood up to machine learning models (XGBoost, Logistic Regression). Process and results viewable in ['Model' Jupyter Notebook](Model.ipynb).
 
 #### Formula: 
 
