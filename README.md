@@ -13,7 +13,7 @@ Follow the link below to preview the interactive dashboard:
 Web scraping for official team colors and logos was completed using BeautifulSoup, Urllib, and Requests in Python, and integrated into dashboard.
 
 
-[Color/Logo Scraping Jupyter Notebook](../blob/master/color_logo_scrape.ipynb)
+[Web Scraping Jupyter Notebook](../blob/master/color_logo_scrape.ipynb)
 
 [Colors/Logo Source](https://dynasties.operationsports.com/team-colors.php?sport=ncaa)
 
